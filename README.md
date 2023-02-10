@@ -35,6 +35,8 @@ $ yarn install
 ## Running the app
 
 ```bash
+# setup
+$ yarn run db:dev:up
 # development
 $ yarn run start
 
@@ -48,8 +50,8 @@ $ yarn run start:prod
 ## Test
 
 ```bash
-# unit tests
-$ yarn run test
+#setup
+yarn run db:test:up
 
 # e2e tests
 $ yarn run test:e2e
